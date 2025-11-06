@@ -1,0 +1,29 @@
+{
+  "name": "@wiopriph/nuxt4-eslint-config",
+  "version": "1.0.1",
+  "type": "module",
+  "description": "Flat ESLint config for Nuxt 4 + TypeScript 5.6+",
+  "main": "src/index.js",
+  "files": ["src/index.js", "README.md"],
+  "engines": { "node": ">=20.9.0" },
+  "peerDependencies": {
+    "typescript": "5.9.3",
+    "vue": "3.5.23"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "8.46.3",
+    "@typescript-eslint/parser": "8.46.3",
+    "@stylistic/eslint-plugin-js": "4.4.1",
+    "@stylistic/eslint-plugin-ts": "4.4.1",
+    "eslint": "9.39.1",
+    "eslint-plugin-vue": "10.5.1",
+    "eslint-plugin-unicorn": "59.0.1",
+    "eslint-plugin-security": "3.0.1",
+    "eslint-plugin-import": "2.32.0",
+    "eslint-plugin-anti-trojan-source": "1.1.1"
+  },
+  "keywords": ["nuxt4", "eslint", "config", "flat"],
+  "scripts": {
+    "lint": "eslint ."
+  }
+}
